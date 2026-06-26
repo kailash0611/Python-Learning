@@ -47,11 +47,12 @@ print(type(tup))
 print(len(tup))
 print(type(tup1))
 print(type(tup2))
+# ---------------------------------
 
 print(tup[3])       # can acces using indeex value 
 #tup[3] = 43         #cant modify using indexes 
 print (tup[2:4])    # slicing is possible just like sting excluding 2 and including 4 
 
 # -- tuple methods--
-tup.index(32)       #gives indes of first occurence of value 
-tup.count(43)       #gives indes of first occurence of value
+print(tup.index(32))       #gives indes of first occurence of value 
+print(tup.count(43))       #gives indes of first occurence of value
